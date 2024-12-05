@@ -1,11 +1,84 @@
 
 body{
-    
+ background-image: url(./img/gokuFondo.jfif);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ background-attachment: fixed;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
 }
 
 
 .imagenPersonaje{
-    width: 280px;
-    height: 280px;
+    width: 150px;
+    height: 300px;
     border-radius: 50%;
+    transition: 1s;
 }
+
+.contenedor{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorLogo{
+     padding: 0px 100px;
+}
+
+.contenedorCuerpo{
+     margin-top: 20px;
+     margin-right:40px;
+     display: flex;
+     justify-items: center;
+     flex-direction: column;
+     width: 50%;
+    
+}
+
+.imglogo{
+    width: 250px;
+    height: 200px;
+} 
+
+.inputtex{
+    font-size:18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.descricion{
+    width: 600px;
+    height: 100px;
+    font-weight: bold;
+}
+
+.textname{
+    font-weight: bold;
+}
+        
+button{
+  padding: 8px 84px;
+  border-radius: 5px;
+  background-color: rgba(248, 245, 33, 0.966);
+}
+
+.imagenPersonaje:hover{
+   transition: 1s;
+   box-shadow: 10px 20px 15px black;
+   border: 1px solid black;
+   cursor: pointer;
+}
+button:hover{
+  background-color:  rgba(226, 223, 59, 0.966);
+  cursor: pointer;
+}
+
+button:active{
+    background-color: rgba(248, 245, 33, 0.966);
+}
+
+
