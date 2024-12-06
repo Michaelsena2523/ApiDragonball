@@ -68,6 +68,7 @@ function ApiGoku() {
                 value={datavalue}
                 onChange={inputDataText}
                 className="inputtex"
+                placeholder="Ingrese el nombre del personaje"
                 />
                 <button onClick={clickbutton}>Buscar</button>
                 <h2 className="textname">{dataname}</h2>
